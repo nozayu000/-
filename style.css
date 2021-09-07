@@ -64,16 +64,19 @@ footer{
   main{
       display: block;
       width: 100%;
-      margin-top:50px;
-      margin-bottom: 50px;
+
     }
 
 .step-box{
   width: 90%;
+  margin-top: 0px;
   margin-bottom: 20px;
-  margin-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   }
-
+  .step-box:last-child{
+    margin-right: auto;
+  }
   footer{
     width: 100%;
     height: 50px;
